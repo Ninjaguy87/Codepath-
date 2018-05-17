@@ -6,7 +6,7 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Priviledge Escalation
+1.  Priviledge Escalation
   - [ ] Summary: 
     - Vulnerability types: Priviledge Escalation
     - Tested in version: 4.2
@@ -14,15 +14,15 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: https://giphy.com/gifs/2skXsOcjIEGqmuYefw
   - [ ] Steps to recreate: 
         1. Comment on a post as a user
-        2. admin approve comment
-        3. user can now comment freely without admin approval 
+        2. Admin approve comment
+        3. User can now comment freely without admin approval 
   - [ ] Affected source code:
-    - [Link 1]()
-2. (Required) Vulnerability Name or ID
+    - [https://github.com/Ninjaguy87/Codepath-/blob/master/Priviledge%20Escalation%20Src.txt]
+2. Stored XSS
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: Stored XSS Attack
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
