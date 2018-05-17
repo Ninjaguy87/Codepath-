@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Priviledge Escalation
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: https://giphy.com/gifs/2skXsOcjIEGqmuYefw
+  - [ ] GIF Walkthrough: https://giphy.com/gifs/40bI4vFdon1dsSD1wv
   - [ ] Steps to recreate: 
         1. Comment on a post as a user
         2. Admin approve comment
