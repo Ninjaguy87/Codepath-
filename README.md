@@ -17,17 +17,15 @@ Time spent: 10 hours spent in total
         2. Admin approve comment
         3. User can now comment freely without admin approval 
 2. Stored XSS
-  - [ ] Summary: A malicious script is injected into the site, which is then activated when the admin views the comment enabling a backdoor
+  - [ ] Summary: An xss error is trigger upon click.
     - Vulnerability types: Stored XSS Attack
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: https://github.com/Ninjaguy87/Codepath-/blob/master/XSS%20Stored%20Scripting%20Attack.gif
   - [ ] Steps to recreate: 
-        1. Create a script that will be inserted 
-        2. Post the script as a comment
-        3. Check to see if the code was inserted via the network window
-        4. wait for admin to click on comment, now backdoor is created
-
+        1. Create a page
+        2. write a script which will cause an XSS error
+        3. go to the page as admin and a XSS will trigger
 3. IDOR
   - [ ] Summary: The URL is maniuplated referencing a html file which reveals the version of word press being used
     - Vulnerability types: IDOR 
