@@ -1,8 +1,8 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document three vulnerabilities affecting an old version of WordPress
 
 ## Pentesting Report
 
@@ -28,8 +28,8 @@ Time spent: **X** hours spent in total
   - [ ] Summary: The URL is maniuplated referencing a html file which reveals the version of word press being used
     - Vulnerability types: IDOR 
     - Tested in version: 4.2
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Fixed in version: Fixable by Admin, hide or delete the object file
+  - [ ] GIF Walkthrough: https://github.com/Ninjaguy87/Codepath-/blob/master/IDOR%20ReadMe.gif
   - [ ] Steps to recreate: 
           1. In the URL edit the code to look for the object we want
           2. change the url to http://wpdistillery.vm/readme.html
@@ -37,9 +37,6 @@ Time spent: **X** hours spent in total
 
 
 
-## Assets
-
-List any additional assets, such as scripts or files
 
 ## Resources
 
@@ -48,22 +45,4 @@ List any additional assets, such as scripts or files
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
 
-Describe any challenges encountered while doing the work
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
