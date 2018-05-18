@@ -23,7 +23,11 @@ Time spent: 10 hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: https://github.com/Ninjaguy87/Codepath-/blob/master/XSS%20Stored%20Scripting%20Attack.gif
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+        1. Create a script that will be inserted 
+        2. Post the script as a comment
+        3. Check to see if the code was inserted via the network window
+        4. wait for admin to click on comment, now backdoor is created
+
 3. IDOR
   - [ ] Summary: The URL is maniuplated referencing a html file which reveals the version of word press being used
     - Vulnerability types: IDOR 
