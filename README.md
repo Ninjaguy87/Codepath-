@@ -6,9 +6,9 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1.  Priviledge Escalation
-  - [ ] Summary: 
-    - Vulnerability types: Priviledge Escalation
+1. User Enumeration
+  - [ ] Summary: An Attack demonstrating how a persom cam become an accepted user afer an admin approves their comment allowing them to comment on any site
+    - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: https://giphy.com/gifs/40bI4vFdon1dsSD1wv
@@ -16,44 +16,26 @@ Time spent: **X** hours spent in total
         1. Comment on a post as a user
         2. Admin approve comment
         3. User can now comment freely without admin approval 
-  - [ ] Affected source code:
-    - [https://github.com/Ninjaguy87/Codepath-/blob/master/Priviledge%20Escalation%20Src.txt]
 2. Stored XSS
-  - [ ] Summary: 
+  - [ ] Summary: A malicious script is injected into the site, which is then activated when the admin views the comment enabling a backdoor
     - Vulnerability types: Stored XSS Attack
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: https://github.com/Ninjaguy87/Codepath-/blob/master/XSS%20Stored%20Scripting%20Attack.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+3. IDOR
+  - [ ] Summary: The URL is maniuplated referencing a html file which reveals the version of word press being used
+    - Vulnerability types: IDOR 
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+          1. In the URL edit the code to look for the object we want
+          2. change the url to http://wpdistillery.vm/readme.html
+          3. click go and the version number and other relevant information about the wordpress site will be revealed
+
+
 
 ## Assets
 
