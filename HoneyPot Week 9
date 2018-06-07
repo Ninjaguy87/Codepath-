@@ -1,0 +1,8 @@
+HoneyPot Week 9 Write Up
+
+I sucessfully deployed a honeypot with http with dionea.  It was attacked multiple times while running the following screenshots show the
+honey pot implementation and sensor information. I wasn't able to extract the information via a json due to the vm not allowing me to 
+access it anymore.
+
+Some other issues that came up 
+
