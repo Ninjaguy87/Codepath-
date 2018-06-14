@@ -4,5 +4,15 @@ I sucessfully deployed a honeypot with http with dionea.  It was attacked multip
 honey pot implementation and sensor information. I wasn't able to extract the information via a json due to the vm not allowing me to 
 access it anymore.
 
-Some other issues that came up 
+Some other issues that came up where even just implentmenting and get it up and running, I created instances and was not able to access the 
+login screens. I'm not sure if this is due to issues with trying to use a windows platform, to perform these functions or maybe the incorrect 
+browser was causing the issues. 
+
+The things I was able to gain insight from this assignment about where why honeypots are implemented, why they are effective and why you 
+should deploy multiple honeypots to protect your network.
+
+These two images show me both using MHN Server to both monitor attacks and deploying the honeypot with Dionea
+
+https://image.ibb.co/iL3iEd/Honeypot_Deploy_Command_Code.png
+https://image.ibb.co/jFCPny/Honey_Pot_Attack_Stats1.png
 
